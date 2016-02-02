@@ -18,10 +18,10 @@ public class PSInputHandler {
 	
 	private void up(int keycode) {
 		switch(keycode) {
-		case Input.Keys.W: ps.getPlayer().stopMoving(); break;
-		case Input.Keys.A: ps.getPlayer().stopMoving();  break;
-		case Input.Keys.S: ps.getPlayer().stopMoving();  break;
-		case Input.Keys.D: ps.getPlayer().stopMoving();  break;
+			case Input.Keys.W: ps.getPlayer().stopMoving(); break;
+			case Input.Keys.A: ps.getPlayer().stopMoving();  break;
+			case Input.Keys.S: ps.getPlayer().stopMoving();  break;
+			case Input.Keys.D: ps.getPlayer().stopMoving();  break;
 		}
 	}
 	
